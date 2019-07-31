@@ -1,0 +1,24 @@
+
+	
+	function shenheSpchu(){
+		var selectedRows=$("#dg").datagrid('getSelections');
+		if(selectedRows.length!=1){
+			$.messager.alert("系统提示","请选择一条要编辑的数据！");
+			return;
+		}
+		var row=selectedRows[0];
+		url="../addSpchu?spchuId="+row.spchuId;
+		$.messager.confirm("系统提示","您确认要收货吗？",function(r){
+			if(r){
+				$.post(url,{spchuType:2},function(result){
+					if(result.errorMsg){
+						$.messager.alert("系统提示",result.errorMsg);
+						$("#dg").datagrid("reload");
+					}else{
+						$.messager.alert("系统提示","您已成功收货！");
+						$("#dg").datagrid("reload");
+					}
+				},"json");
+			}
+		});
+	}

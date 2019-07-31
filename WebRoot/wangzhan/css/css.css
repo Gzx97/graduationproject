@@ -1,0 +1,134 @@
+﻿body {
+	margin:0;padding:0;
+	font-size: 14px;
+	color:#000;
+}
+a {color: #000; text-decoration: none;}
+a:hover {color: #ff0000; text-decoration: none;}
+/*****导航****/
+.nav{ background:url(../images/topbg.jpg)}
+.logo,.logo a{
+font-size:36px; color:#b4070d; font-weight:bold; text-decoration:none; font-family:"微软雅黑"; letter-spacing: 10px;
+}
+/*****条背景****/
+.nav1 { background:url(../images/hbg.gif)}
+/*****导航****/
+.w{width:1000px;margin:0 auto;clear:both;overflow:hidden;}
+#topnav{background:#363233;height:50px;}
+#topnav .w ul{margin:0;padding:0;list-style:none;}
+#topnav .w ul li{float:left;}
+#topnav .w ul li a{height:50px;line-height:50px;font-size:16px;font-family:microsoft yahei;color:#fff;padding:0 20px;display:block;}
+#topnav .w ul li a:hover{background:#000000;}
+#topnav .w ul li.hover a{background:#000000;}
+#topnav .w ul .hover a{background:#000000;height:50px;line-height:50px;font-size:16px;font-family:microsoft yahei;color:#fff;padding:0 20px;display:block;}
+#topnav .w ul li dl{position:absolute;z-index:999;margin:0;display:none;width:160px;}
+#topnav .w ul .hover dl dt a{background:#000000;border-bottom:1px solid #000000;height:40px;line-height:40px;display:block;font-size:14px;}
+#topnav .w ul .hover dl dt a:hover{background:#fff;color:#333;display:block;}
+.bai2{font-size:14px; color:#ffffff; text-decoration:none; font-family:"微软雅黑";}
+/*****标题字体****/
+.con2,.con2 a{
+font-size:14px; color:#FF5A00; text-decoration:none; font-family:"微软雅黑";
+}
+/***按钮**/
+.tbutton{ color:#fff; font-size:14px; background:#FF5A00; text-align:center; border:#C30 1px solid; border:0px; height:35px; width:80px;}
+.about{ margin:10px; line-height:22px;}
+/***分类导航**/
+.proOne{width:100%;float:left;overflow:hidden; margin-bottom:7px;}
+.proOne a{width:208px; color:#363233;padding-left:22px;line-height:32px; float:left;font-size:14px;text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.proOne a:hover,.proOne a.cur{}
+
+.product{float:left; margin:5px; width:230px;}
+.product:hover{background:#fee101; color:#363233}
+/*****底部****/
+.footer{background:#363233; color:#FFF;}
+.more{ color:#404040; font-family:arial, helvetica, sans-serif}
+.more a{ color:#222222; font-family:arial, helvetica, sans-serif}
+.more a:hover{ color:#fc3; text-decoration:none; font-family:arial, helvetica, sans-serif}
+.leftcss{ color:#fff; font-size:14px; background:#FF5A00}
+.sort{
+	padding-right:10px; padding-left:15px; border:#CCC 1px solid; border-bottom:#000000 0px solid; background:url(../images/hbg.gif)
+	}
+
+.table-zuoyou {
+	border-right: #cccccc 1px solid; border-left: #cccccc 1px solid; border-bottom: #cccccc 1px solid;
+}
+.table-shangxia {
+	border-top: #cccccc 1px solid; border-bottom: #cccccc 1px solid
+}
+.table-you {
+	border-right: #cccccc 1px solid
+}
+.table-zuo {
+	border-left: #cccccc 1px solid
+}
+.table-shang {
+	border-top: #cccccc 1px solid
+}
+.table-xia {
+	border-bottom: #cccccc 1px solid
+}
+.table-xu {
+	border-bottom: #cccccc 1px dotted
+}
+
+.tablebottom{ border-bottom:#CCC 1px solid;}
+
+.wenbenkuang{height:20px; font-family:"宋体";}
+
+.height5{ height:5px;}
+.height10{ height:10px;}
+.height15{ height:15px;}
+
+.red{color:#ff0000;}
+.white{color:#ffffff;}
+.line{border-bottom:1px dashed #cccccc; }
+/*****分页*****/
+.pagination {
+text-align: center; margin-left:0px; margin-right:0px;
+margin: 20px 0;
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+border-radius: 0;
+}
+.pagination > li {
+    display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #5f5f5f;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+<!--上方为字体颜色--
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #0f659b;
+  background-color: #eeeeee;
+  border-color: #dddddd;
+}
+<!--背景颜色-->
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #5f5f5f;
+  border-color: #5f5f5f;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
